@@ -13,4 +13,4 @@ client.on('message', async message => {
         require(`./commands/${commands[command]}`).onmessage(message, client);
 });
 
-client.login('NTQ3MzEwNzY4ODYxODcyMTcy.XGuo3w.uemX9Xaj8Zl9439CUp6DdadeQ2c');
+client.login('sex');
