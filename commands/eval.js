@@ -1,3 +1,5 @@
+module.exports.name = "eval";
+
 module.exports.onmessage = function(message, client) {
     try {
         message.channel.send("```" + eval(message.content.slice(5)) + "```");
